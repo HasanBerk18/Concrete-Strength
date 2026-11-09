@@ -1,0 +1,28 @@
+{
+  "LinearRegression": {},
+  "RandomForest": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "max_features": 0.5
+  },
+  "SVR": {
+    "C": 100,
+    "gamma": 0.05,
+    "epsilon": 2.0
+  },
+  "MLP-A": {
+    "lr": 0.003,
+    "batch_size": 16
+  },
+  "MLP-B": {
+    "lr": 0.001,
+    "batch_size": 32
+  },
+  "MLP-C": {
+    "lr": 0.001,
+    "batch_size": 32,
+    "dropout": 0.1,
+    "l2": 0.001
+  }
+}

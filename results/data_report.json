@@ -1,0 +1,21 @@
+{
+  "n_raw": 1030,
+  "missing_values": 0,
+  "exact_duplicates_removed": 25,
+  "n_after_cleaning": 1005,
+  "iqr_outliers_kept": {
+    "cement": 0,
+    "slag": 2,
+    "fly_ash": 0,
+    "water": 15,
+    "superplasticizer": 10,
+    "coarse_agg": 0,
+    "fine_agg": 5,
+    "age": 59,
+    "strength": 8
+  },
+  "n_unique_mixes": 428,
+  "mixes_tested_at_multiple_ages": 182,
+  "rows_in_multi_age_mixes": 759,
+  "replicate_rows_same_mix_and_age": 9
+}
